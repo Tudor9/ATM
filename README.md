@@ -1,6 +1,6 @@
 # ATM
 
-![ATMDiagram](docs/AtmDiagram.png)
+![ATMDiagram](docs/Diagram.png)
 
    _DESCRIPTION_
    

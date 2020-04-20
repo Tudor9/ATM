@@ -1,6 +1,6 @@
 # ATM
 
-![Exercise 1 image](docs/ex1.jpg)
+![ATM image](docs/AtmDiagram.jpg)
 
 I have created a real time accesing ATM for users.
     * _insertCard()_ method from ATM will compare received pin with the pin stored in card. If 2 pins match the card will be stored as attribute and will be used for executing transactions.

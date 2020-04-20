@@ -13,7 +13,7 @@
    
    I used _abstracted_ class for classes that extends transaction metod.
    
-   I uesd Aggregation and Generalization relations.
+   I uesd Aggregation and inheritance relations.
    
  1. Methods.
     * _insertCard()_ method from ATM will compare received pin with the pin stored in card. If 2 pins match the card will be stored as attribute and will be used for executing transactions.

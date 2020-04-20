@@ -2,7 +2,19 @@
 
 ![ATMDiagram](docs/AtmDiagram.png)
 
-1. I have created a real time accesing ATM for users.
+   _DESCRIPTION_
+   
+   I have created a real time accesing ATM with JAVA programing language. I stored 10 accounts with different ids and pins where you can acces one of these accounts in ATM and do transactions, such as: withdraw, insert money, check money, view private data, transfer money from another account, and pay invoices from gass, water an electricity services.
+   Each usser account has own bank card that should be introduced in ATM to make transactions. When the card is removed, ATM will request again to introduce the card and the pin.
+   
+   _WHAT I USED_
+   
+   I used _map_ and _lists_ for storing the data. 
+   I used _abstracted_ class for classes that extends transaction metod.
+   I uesd Aggregation and Generalization relations.
+   
+   _METHODS_
+   
     * _insertCard()_ method from ATM will compare received pin with the pin stored in card. If 2 pins match the card will be stored as attribute and will be used for executing transactions.
     * _removeCard()_ method will invalidate a previously inserted card by making the attribute null.
     

@@ -13,7 +13,7 @@
    I used _abstracted_ class for classes that extends transaction metod.
    I uesd Aggregation and Generalization relations.
    
-1.Methods
+1. Methods.
     * _insertCard()_ method from ATM will compare received pin with the pin stored in card. If 2 pins match the card will be stored as attribute and will be used for executing transactions.
     * _removeCard()_ method will invalidate a previously inserted card by making the attribute null.
     * _transferMoney()_ method whitch use 2 classes _transferMoneySender_ and _transferMoneyReceiver_ will acces first _transferMoneySender_ where it will take the money from current account, and beneficiary user will receive the amount of money in _transferMoneyReceiver_ where it will be stored in beneficiary account. Payer should introduce the id of beneficary user to make the transaction.

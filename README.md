@@ -9,8 +9,10 @@
    
    _WHAT I USED_
    
-   I used _map_ and _lists_ for storing the data. 
+   I used _map_ and _lists_ for storing the data.
+   
    I used _abstracted_ class for classes that extends transaction metod.
+   
    I uesd Aggregation and Generalization relations.
    
  1. Methods.
